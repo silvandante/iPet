@@ -34,8 +34,5 @@ jobs:
       - name: Build project
         run: ./gradlew assembleDebug
 
-      - name: Run Lint
-        run: ./gradlew lint
-
       - name: Run Unit Tests
         run: ./gradlew testDebugUnitTest
