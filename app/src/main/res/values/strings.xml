@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">iPet</string>
+    <string name="default_web_client_id">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</string>
+    <string name="medication_alarms_title">Medication Alarms</string>
+    <string name="select_pet_to_details">Selecione um pet para ver os detalhes.</string>
+    <string name="no_alarms_tap_to_add">Sem alarmes. Clique + para adicionar.</string>
+    <string name="add_pet_title">Adicione um pet</string>
+    <string name="app_error">App error</string>
+    <string name="birthday_label">Aniversário</string>
+    <string name="age_label">Idade</string>
+    <string name="unknown_age">Desconhecida</string>
+    <string name="years">%1$s anos</string>
+    <string name="diaseasis_history">Histórico de Doenças</string>
+    <string name="no_diseasis">Nenhuma doença registrada.</string>
+    <string name="generate_pdf">Gerar Relatório Completo (PDF)</string>
+    <string name="add_medication_alarm">Adicionar Alarme</string>
+    <string name="alarm_name">Nome do Alarme</string>
+    <string name="time">Horário</string>
+    <string name="pet_name">Nome do pet</string>
+    <string name="birthday_date">Data de nascimento</string>
+    <string name="select_date">Selecionar Data</string>
+    <string name="diseasis_comma_separate">Doenças (separadas por vírgula)</string>
+    <string name="save">Salvar</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="create_email_account">Criar conta com email</string>
+    <string name="enter_google">Entrar com conta Google</string>
+    <string name="welcome">Bem vindo ao iPet</string>
+</resources>

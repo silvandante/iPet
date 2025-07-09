@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "192614796083",
+    "project_id": "ipet-annywalker",
+    "storage_bucket": "ipet-annywalker.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192614796083:android:111195685fc4fa43284c46",
+        "android_client_info": {
+          "package_name": "com.annywalker.ipet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192614796083-3jth9br0dmgrg60ncnlhj3ljf9f29hcv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.annywalker.ipet",
+            "certificate_hash": "fb0aeb5a2a33fe64ee69ecc895b2b160ab4726ac"
+          }
+        },
+        {
+          "client_id": "192614796083-9f5ejl27tkc35f8idkc0b83eqvulev96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM2GoDikf5s8aca4Y9ss7QVQCoJKvouX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192614796083-9f5ejl27tkc35f8idkc0b83eqvulev96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
