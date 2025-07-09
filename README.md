@@ -21,6 +21,14 @@
 
 ---
 
+## 🎥 Demo
+
+👉 [Watch the iPet demo on YouTube Shorts](https://youtube.com/shorts/GqphZI15tfI?feature=share)
+
+> A quick preview of iPet in action — symptom tracking, alarms, PDF export and more!
+
+---
+
 ## 📸 Screenshots
 
 | Home | Tracker | Alarm |
