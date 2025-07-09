@@ -8,6 +8,11 @@ import androidx.work.OutOfQuotaPolicy
 import androidx.work.WorkManager
 import androidx.work.workDataOf
 import com.annywalker.ipet.core.domain.model.SymptomEntry
+import com.annywalker.ipet.core.util.PdfConstants.KEY_ENTRIES
+import com.annywalker.ipet.core.util.PdfConstants.KEY_PET_AGE
+import com.annywalker.ipet.core.util.PdfConstants.KEY_PET_BIRTHDAY
+import com.annywalker.ipet.core.util.PdfConstants.KEY_PET_DISEASES
+import com.annywalker.ipet.core.util.PdfConstants.KEY_PET_NAME
 import com.annywalker.ipet.core.util.toJson
 import com.annywalker.ipet.worker.PdfGenerationWorker
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -45,11 +50,11 @@ class PdfGeneratorManager @Inject constructor(
         petDiseases: String
     ) {
         val inputData = workDataOf(
-            "entries" to entries.toJson(),
-            "petName" to petName,
-            "petAge" to petAge,
-            "petBirthday" to petBirthday,
-            "petDiseases" to petDiseases
+            KEY_ENTRIES to entries.toJson(),
+            KEY_PET_NAME to petName,
+            KEY_PET_AGE to petAge,
+            KEY_PET_BIRTHDAY to petBirthday,
+            KEY_PET_DISEASES to petDiseases
         )
 
         val workRequest = OneTimeWorkRequestBuilder<PdfGenerationWorker>()
