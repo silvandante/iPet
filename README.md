@@ -23,11 +23,9 @@
 
 ## 📸 Screenshots
 
-> ⚠️ _Replace these paths with actual screenshot files if available (e.g., `./screenshots/home.png`)._
-
 | Home | Tracker | Alarm |
 |------|---------|-------|
-| ![Home](./screenshots/home.png) | ![Tracker](./screenshots/symptom_tracker.png) | ![Alarm](./screenshots/alarm.png) |
+| ![Home](./screenshots/home.png) | ![Tracker](./screenshots/tracker.png) | ![Alarm](./screenshots/alarm.png) |
 
 ---
 
